@@ -16,4 +16,8 @@ f = x**2
 
 # Calculate the derivative of the function.
 dx_f = diff(f)
-print(dx_f) # prints 2*x
+print(dx_f) # prints "2*x"
+
+# Calculate the slope of the tangent line at x=2.
+tan = dx_f.subs(x, 2)
+print(tan) # prints "4"
