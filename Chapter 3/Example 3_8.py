@@ -24,6 +24,6 @@ def std_dev(values, is_sample: bool = False):
 # We increase the variance value comparing to population variance 21.387755
 # so as not underestimate the variance of the population
 # based on our sample.
-print("VARIANCE = {0}".format(variance(data, True))) # 24.95238095238095.
-print("STD_DEV = {0}".format(std_dev(data, True))) # 4.99523582550223.
+print("VARIANCE = {}".format(variance(data, True))) # 24.95238095238095.
+print("STD_DEV = {}".format(std_dev(data, True))) # 4.99523582550223.
       
