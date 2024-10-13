@@ -19,7 +19,7 @@ mean = 64.43
 std_dev = 2.99
 
 # Probability that the weight of a retriever < 64.43 pounds
-# is the area under CDF graph
+# is the area under PDF graph
 # in a range from zero to 64.43 points.
 x = norm.cdf(64.43, mean, std_dev)
 
