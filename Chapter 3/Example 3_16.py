@@ -21,7 +21,7 @@ def critical_z_value(p):
     # the mean is 0 and the std dev is 1.
     norm_dist = norm(loc=0.0, scale=1.0)
     left_tail_area = (1.0 - p) / 2.0
-    upper_area_plus_left_tail_area = 1 - ((1 - p) / 2.0)
+    upper_area_plus_left_tail_area = 1.0 - ((1.0 - p) / 2.0)
     # Finding z-values that correspond to tha areas
     # using inverse Cumulative Density function (called
     # ppf in Python).
