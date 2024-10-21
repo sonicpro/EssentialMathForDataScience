@@ -26,4 +26,7 @@ def critical_t_value(p):
     upper_t_value = t.ppf(upper_area_plus_left_area, df=n - 1)
     return lower_t_value, upper_t_value
 
-print(critical_t_value(0.95)) # (-2.0638985616280205, 2.0638985616280205)
+print(critical_t_value(0.95))
+# (-2.0638985616280205, 2.0638985616280205) the confidence interval is wider
+# comparing to Example 3_16 (normal distribution). This reflect the greater
+# uncertainty in data values in T-distribution.
