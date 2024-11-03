@@ -19,10 +19,10 @@ j_hat = array([0, 2])
 # values symmetric to the main diagonal of the matrix.
 # Say, i-hat is [3, 5] and j-hat is [7, 2].
 # We need the basis matrix is 
-#[[3, 7]
-# [5, 2]] instead of
-#[[3, 5]
-# [7, 2]]
+#[[3 7]
+# [5 2]] instead of
+#[[3 5]
+# [7 2]]
 basis = array([i_hat, j_hat]).transpose()
 # print(basis)
 
@@ -33,4 +33,4 @@ v = array([1, 1])
 # by transforming v with dor product.
 new_v = basis.dot(v)
 
-print(new_v) # [3, 2]
+print(new_v) # [3 2]

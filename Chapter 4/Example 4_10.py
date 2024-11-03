@@ -20,8 +20,8 @@ i_hat = array([2, 3])
 j_hat = array([2, -1])
 
 # Compose base matrix using transform, i.e. it looks like
-#[[2, 2]
-# [3, -1]]
+#[[2 2]
+# [3 -1]]
 
 basis = array([i_hat, j_hat]).transpose()
 
@@ -33,4 +33,4 @@ v = array([2, 1])
 
 new_v = basis.dot(v)
 
-print(new_v) # [6, 5]
+print(new_v) # [6 5]
